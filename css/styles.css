@@ -1,9 +1,27 @@
-div{
-  background-color: #AAAAAA
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
 }
 
-section > div{
-  background-color: #AAAAAA
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;  //Keeps nav-brand inside navbar header
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
 
 #nav-list a:hover {
@@ -16,7 +34,6 @@ section > div{
   clear: both;
 
 }
-
 .container{
   margin: 0px auto 0px;
 }
